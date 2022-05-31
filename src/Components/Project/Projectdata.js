@@ -11,6 +11,7 @@ import css from '../../image/css3.svg'
 import php from '../../image/php.png'
 import sql from '../../image/sql.svg'
 import javascript from '../../image/javascript.svg'
+import firebase from '../../image/firebase.svg'
 export const ProjectData= [
     {
     
@@ -23,7 +24,43 @@ export const ProjectData= [
         heading:'CHAT APPLICATION',
         description:'A chat application using advance technology ReactJs, NodeJs, Mongo, ExpressJs.For Real Time Communication I had used Socket.Io,And for authentication Google Authentication'
     
-},
+    },
+    {
+    
+        images:[
+            web,react
+        ],
+        techUsed:[
+            react,mongo,nodejs,express
+        ],
+        heading:'BLOG WEBSITE',
+        description:'A Blog Website using advance technology ReactJs, NodeJs, Mongo, ExpressJs. User could post his blogs, delete and update features are also available, And for authentication I had used  JWT Web Token'
+    
+    },
+    {
+    
+        images:[
+            web,react
+        ],
+        techUsed:[
+            react,firebase
+        ],
+        heading:'FILE STORAGE',
+        description:'Start to my MERN stack journey, A website capable of storing all formats of files,images, videos. Also with features of delete retrive back favourites creating folder inside folder storing files inside it. A website with ReactJS as frontend and backend as firebase, with Google Authentication'
+    
+    },
+    {
+    
+        images:[
+            web,react
+        ],
+        techUsed:[
+            html,css,javascript,php,sql
+        ],
+        heading:'Chat Application',
+        description:'A first complete website with Html, Css ,Javascript , Php, Sql as technologies used. Main focus was not on designing (I have created complete website using mern stack as mentioned in first row with all features and perfect designs and responsive) but to implement and have a good hold on php sql and javascript. It consist of all features of last seen profile and bio change , chat time, last online time etc.'
+    
+    },
     {
     
         images:[
@@ -32,45 +69,8 @@ export const ProjectData= [
         techUsed:[
             html,css,javascript
         ],
-        heading:'CHAT APPLICATION',
-        description:'A simple easy to use music player, with features of repeat shuffle select music , search and little animations using particleJS. A website made up of Html5 , Css3 , Javascript '
+        heading:'MUSIC PLAYER',
+        description:'A simple easy to use music player, with features of repeat shuffle select music ,search and little animations using particleJS. A website made up of Html5 , Css3 , Javascript'
     
-    }
-]
-export const blogData = [
-    {
-        image:web
-    },
-    {
-        image:react
-    }
-]
-export const musicData = [
-    {
-        image:music1
-    },
-    {
-        image:music2
-    },
-    {
-        image:music3
-    }
-]
-
-export const chatphpData = [
-    {
-        image:web
-    },
-    {
-        image:react
-    }
-]
-
-export const fileData = [
-    {
-        image:web
-    },
-    {
-        image:react
-    }
+    },   
 ]
