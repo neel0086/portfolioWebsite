@@ -1,0 +1,157 @@
+#home{
+    display: flex;
+    padding: 0px 96px;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background: none;
+}
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom left, #000, #0f1113);
+  }
+  
+  #tsparticles canvas {
+    height: 100%;
+    width: 100%;
+  }
+.h-container{
+    color: #fff;
+    width: 50%;
+    flex-basis: 40rem;
+}
+.h-container h3{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+
+}
+.h-container h3 span{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--orange);
+}
+.h-img{
+    flex-basis: 40rem;
+    position: relative;
+}
+.h-img img{
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 500px;
+
+}
+
+.connect{
+    margin-top: 30px;
+    
+    
+}
+.connect-icon{
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+.connect-icon li{
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.connect-icon a{
+    display: inline-block;
+    text-align: center;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    width: 44px;
+    margin-right: 40px;
+    
+    
+}
+.connect-icon a img{
+    width: 45px;
+    
+}
+.connect-icon a:hover{
+    transform: scale(1.05);
+    filter:invert(0);
+    
+}
+
+
+@media only screen and (max-width:1100px) {
+    #home{
+        flex-direction: column;
+        gap: 0.1rem;
+        padding-bottom: 70px;
+        
+    }
+    .h-container{
+        flex: 1 1 10rem;
+        margin-top: 100px;
+        width: 80%;
+    }
+    .h-img{
+        flex: 1 1 20rem;
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:768px) {
+    #home{
+        padding: 0px 20px 100px 20px;
+    }
+    .h-container h3{
+        font-size: 3rem;
+    }
+    .h-container p{
+        font-size: 1.2rem;
+    }
+    .h-img{
+        margin: 0rem 0;
+    }
+
+}
+/* @media only screen and (max-width:1100px) {
+    #home{
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+    .h-container{
+        flex: 1 1 15rem;
+        margin-top: 100px;
+        width: 80%;
+    }
+    .h-img{
+        flex: 1 1 20rem;
+        width: 80%;
+    }
+
+} */
+@media only screen and (max-width:450px) {
+    .h-img{
+        flex:1 1 10rem;  
+    }
+    .h-container h3{
+        font-size: 2rem;
+    }
+    .h-container p{
+        font-size: 1.2rem;
+    }
+    .h-img{
+        flex:1 1 10rem;  
+    }
+    .connect-icon a img{
+        width: 2rem;
+    }
+    .connect-icon a{
+        margin-right: 15px;
+    }
+
+}

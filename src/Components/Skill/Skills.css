@@ -1,0 +1,151 @@
+
+.talent{
+    padding:3rem 3rem 0 3rem;
+    display: flex;
+    height: 100vh;
+    /* margin-bottom: 8rem; */
+    width: auto;
+    /* margin-top: 9rem; */
+    /* background:linear-gradient(to bottom left,#000,#1b2026); */
+    /* margin-bottom: 13rem; */
+}
+.skill-left{
+    display: flex;
+    flex-direction: column;
+}
+.skill-left>:nth-child(1){
+    color: var(--white);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.skill-left>:nth-child(2){
+    color: var(--orange);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.skill-left>:nth-child(3){
+    color: var(--orange);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.skill-right{
+    position: relative;
+    
+}
+.skill-right>*{
+    position: absolute;
+    
+}
+.exp{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    height: 30vh;
+    margin-bottom: 8rem;
+    margin-bottom: 8rem;
+}
+.s-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-bar span{
+    color: var(--orange);
+}
+.circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+.circle::before{
+    border-radius: 100%;
+    content: '';
+    background:linear-gradient(#ff6900,#64320f,rgb(217 187 29),#162b07);
+    
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width:1334px) {
+    .talent{
+        flex-direction: column;
+        
+        gap: 4rem;
+        height: unset;
+        
+    }
+    .skill-left{
+        justify-content: start;
+    }
+    .skill-right{
+        position: static;
+        gap: 2rem;
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        justify-content:space-between; 
+        padding: 0;
+        margin: 0;
+        overflow: scroll;     
+    }
+    .skill-right>*{
+        position: static;
+        
+        gap: 70rem;
+    }
+}
+
+@media screen and (max-width:645px) {
+    .talent{
+        flex-direction: column;
+        padding: 0 0rem;
+        gap: 2.5rem;
+        height: unset;
+        
+    }
+    .skill-left{
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-right{
+        position: static;
+        gap: 5rem;
+        display: flex;
+        flex-direction: column;        
+    }
+    .skill-right>*{
+        position: static;
+        
+        gap: 70rem;
+    }
+}
+@media screen and (max-width:500px){
+    .skill-left>:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .skill-left>:nth-child(2),.skill-left>:nth-child(3){
+        font-size: 1rem;
+    }
+    
+}
