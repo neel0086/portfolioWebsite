@@ -12,7 +12,7 @@
     --pbackgorund:#282828;
     --pimage:#3d3d3d;
 }
-
+/* #5ebf94 */
 .App{
     
     overflow: hidden;
@@ -20,6 +20,7 @@
     /* background:linear-gradient(to bottom left,#000,#1b2026); */
     display: flex;
     flex-direction: column;
+    cursor: url('./image/cursor.svg'), auto;
 }
 
 .button{
@@ -37,9 +38,22 @@
   color: var(--orange);
   border:1px solid var(--orange)
 }
-/* .main_body{
-  margin: 0 3.5rem;
-} */
+.main_container{
+  /* background:linear-gradient(to bottom left,#000,#1b2026) */
+  background-color: #171717;
+    background-image: url(https://codeplusplus.acmvit.in/static/media/grid.a8e9cc9ddce1bada2875.svg);
+}
+.main_body{
+  background-color: #171717;
+    background-image: url('/src/image/backimage.svg');
+    
+}
+
+.design img{
+  height: 100px;
+  min-width: 15%;
+  
+}
 /* @media screen and (max-width:985px) {
   .main{
     padding:0.5rem 1rem;

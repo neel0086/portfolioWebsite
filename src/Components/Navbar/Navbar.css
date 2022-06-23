@@ -43,6 +43,9 @@
     line-height: 40px;
     margin-right: 1.5rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    
 }
 .n-item:after{
     content: "";
@@ -57,6 +60,10 @@
     width: 100%;
     background:var(--orange);
 }
+.n-item img{
+  padding: 0.5rem;
+}
+
 .nav-icon {
     display: none;
   }
