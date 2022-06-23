@@ -64,7 +64,7 @@ export const ProjectData= [
     {
     
         images:[
-            web,react
+            music3,music1,music2
         ],
         techUsed:[
             html,css,javascript
