@@ -2,6 +2,15 @@ import web from '../../image/mern.png'
 import music1 from '../../image/music1.png'
 import music2 from '../../image/music2.png'
 import music3 from '../../image/music3.png'
+import file1 from '../../image/file1.png'
+import file2 from '../../image/file2.png'
+import file3 from '../../image/file3.png'
+import blog1 from '../../image/blog1.png'
+import blog2 from '../../image/blog2.png'
+import blog3 from '../../image/blog3.png'
+import blog4 from '../../image/blog4.png'
+import scrap1 from '../../image/scrap1.png'
+import scrap2 from '../../image/scrap2.png'
 import react from '../../image/react.svg'
 import mongo from '../../image/mongodb.svg'
 import nodejs from '../../image/nodejs.svg'
@@ -12,6 +21,7 @@ import php from '../../image/php.png'
 import sql from '../../image/sql.svg'
 import javascript from '../../image/javascript.svg'
 import firebase from '../../image/firebase.svg'
+import python from '../../image/python.png'
 export const ProjectData= [
     {
     
@@ -28,7 +38,7 @@ export const ProjectData= [
     {
     
         images:[
-            web,react
+            blog1,blog2,blog3,blog4
         ],
         techUsed:[
             react,mongo,nodejs,express
@@ -40,7 +50,7 @@ export const ProjectData= [
     {
     
         images:[
-            web,react
+            file1,file2,file3
         ],
         techUsed:[
             react,firebase
@@ -49,6 +59,18 @@ export const ProjectData= [
         description:'Start to my MERN stack journey, A website capable of storing all formats of files,images, videos. Also with features of delete retrive back favourites creating folder inside folder storing files inside it. A website with ReactJS as frontend and backend as firebase, with Google Authentication'
     
     },
+    {
+    
+        images:[
+            scrap1,scrap2
+        ],
+        techUsed:[
+            python
+        ],
+        heading:'Selenium',
+        description:'Web scarapping , A small project to fetch info from a coding website codechef and get some detail sorted in a perfect way which site does not provide'
+    
+    },   
     {
     
         images:[
@@ -73,4 +95,5 @@ export const ProjectData= [
         description:'A simple easy to use music player, with features of repeat shuffle select music ,search and little animations using particleJS. A website made up of Html5 , Css3 , Javascript'
     
     },   
+
 ]
