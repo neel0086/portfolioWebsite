@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion' 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faAngleLeft, faAngleRight} from '@fortawesome/free-solid-svg-icons'
+import './ProjectDisplay.css'
+import githubIcon from '../../image/githubP.png'
+import linkedInIcon from '../../image/linkedIn.png'
+import WebIcon from '../../image/Web.png'
 
 function ProjectDisplay({detail}) {
     console.log(detail)
@@ -52,6 +56,13 @@ function ProjectDisplay({detail}) {
                     <p>{detail.description}
                         
                     </p>
+                    <div className="Links">
+                            <p class="btn-hover color-1"><img src={githubIcon}/>Github</p>
+                            <p class="btn-hover color-1">
+                                <img src={detail.linktype=="Web" ? WebIcon  : linkedInIcon}/>
+                                {detail.linktype}
+                            </p>
+                    </div>
                                        
                 </div>
             </motion.div>
