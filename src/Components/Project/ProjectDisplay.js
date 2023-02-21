@@ -57,11 +57,12 @@ function ProjectDisplay({detail}) {
                         
                     </p>
                     <div className="Links">
-                            <p class="btn-hover color-1"><img src={githubIcon}/>Github</p>
-                            <p class="btn-hover color-1">
+                            <a href=''><p class="btn-hover color-1"><img src={githubIcon}/>Github</p></a>
+                            <a href=''><p class="btn-hover color-1">
                                 <img src={detail.linktype=="Web" ? WebIcon  : linkedInIcon}/>
                                 {detail.linktype}
                             </p>
+                            </a>
                     </div>
                                        
                 </div>

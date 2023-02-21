@@ -22,7 +22,26 @@ import sql from '../../image/sql.svg'
 import javascript from '../../image/javascript.svg'
 import firebase from '../../image/firebase.svg'
 import python from '../../image/python.png'
+import electronjs from '../../image/electronjs.png'
+import ide1 from '../../image/ide1.png'
+import ide2 from '../../image/ide2.png'
+import ide3 from '../../image/ide3.png'
+import ide4 from '../../image/ide4.png'
+
 export const ProjectData= [
+    {
+    
+        images:[
+            ide1,ide2,ide3,ide4
+        ],
+        techUsed:[
+            react,nodejs,electronjs
+        ],
+        heading:'TURBINE(ADVANCE IDE)',
+        description:'An Ide is suitable for competitive programmers in which we are trying to bring all automation tools and visualizers in an Ide that existing players dont provide.',
+        linktype:'video'
+    
+    },
     {
     
         images:[

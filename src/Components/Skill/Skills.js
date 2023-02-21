@@ -18,6 +18,10 @@ import jsIcon from '../../image/javascript.svg'
 import pro from '../../image/pro.png'
 import Resume from '../../image/RESUME.pdf'
 import python from '../../image/python.png'
+import java from '../../image/java.png'
+import postmanIcon from '../../image/postman.png'
+import mongodbIcon from '../../image/mongodb.png'
+import hibernateIcon from '../../image/hibernate.png'
 import { motion } from 'framer-motion'
 import Tilt from "react-tilt";
 function Skills() {
@@ -46,14 +50,12 @@ function Skills() {
                 style={{left:'7rem',top:'2rem'}}>
                     <Scard 
                         emoji={web}
-                        heading={"WEB DEV"}
+                        heading={"FRAMEWORK"}
                         details={[{detail:"REACTJS",img:react},
                                 {detail:"NODEJS",img:nodejs},
-                                {detail:"EXPRESS",img:express},
-                                {detail: "MONGO",img: mongo},
-                               {detail:"HTML & CSS",img:htmlIcon},
-                               {detail:"JAVASCRIPT",img:jsIcon},
+                                {detail:"EXPRESSJS",img:express},
                                {detail:"PHP, SQL",img:phpIcon},
+                               {detail:"HIBERNATE",img:hibernateIcon},
                                
                             ]}
                     />
@@ -65,9 +67,12 @@ function Skills() {
                     <Scard 
                         emoji={pro}
 
-                        heading={"PRORAMMING"}
+                        heading={"LANGAUGES"}
                         details={[{detail: "PYTHON",img: python},
                                {detail:"C++",img:cppIcon},
+                               {detail: "JAVA",img: java},
+                               {detail:"JAVASCRIPT",img:jsIcon},
+                               {detail:"HTML & CSS",img:htmlIcon},                                
                             ]}
                     />
                 </motion.div>
@@ -82,6 +87,8 @@ function Skills() {
                         details={[{detail: "GIT",img: gitIcon},
                                {detail:"GITHUB",img:githubIcon},
                                {detail:"LINUX",img:linuxIcon},
+                               {detail:"postman",img:postmanIcon},
+                               {detail: "MONGODb",img: mongodbIcon},
                             ]}
                     />
                 </motion.div>
