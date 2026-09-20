@@ -1,9 +1,1 @@
-import React from 'react'
-
-function Footer() {
-  return (
-    <div></div>
-  )
-}
-
-export default Footer
+import React from'react';import'./Footer.css';function Footer(){return <footer><div><p className="eyebrow">LET’S BUILD SOMETHING USEFUL</p><a href="mailto:neelmehta0086@gmail.com">neelmehta0086@gmail.com</a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Neel Mehta</span><span>Vadodara, Gujarat, India</span><a href="https://github.com/neel0086" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/neel-mehta-71857b1bb/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></footer>}export default Footer;

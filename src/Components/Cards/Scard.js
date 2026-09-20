@@ -12,10 +12,6 @@ function Scard({heading,details}) {
               return <span className='s-tech'><img src={tech.img} alt="" />{tech.detail}</span>
             })
           }
-            {/* {detail1 && <span className='s-tech'><img src={img1} alt="" />{detail1}</span>}
-            {detail2 && <span className='s-tech'><img src={img2} alt="" />{detail2}</span>}
-            {detail3 && <span className='s-tech'><img src={img3} alt="" />{detail3}</span>}
-            {detail4 && <span className='s-tech'><img src={img4} alt="" />{detail4}</span>} */}
         </span>
       
     </div>

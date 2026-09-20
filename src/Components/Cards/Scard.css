@@ -34,12 +34,13 @@
     align-items: center;
     margin-bottom: 1.2rem;
     /* justify-content: center; */
-    gap: 1.5rem;
+    gap: 0.5rem;
     margin-left:1rem ;
+    font-size: 2.4vmin;
 }
 .s-tech img{
     
-    height: 5vmin;
+    height: 30px;
     display: flex;
     z-index: 5000;
     width: auto;
@@ -58,10 +59,10 @@
     .s-tech img{
         height: 8vmin;
     }
-    .card span:nth-child(3)>*{
+    /* .card span:nth-child(3)>*{
         font-size: 4vmin;
         
-    }
+    } */
 }
 @media screen and (max-width:450px) {
     .card{
@@ -70,16 +71,16 @@
     .s-tech{
         gap: 0.5rem;
     }
-    .card span:nth-child(3)>*{
+    /* .card span:nth-child(3)>*{
         font-size: 0.8rem;
-    }
+    } */
 }
 @media screen and (max-width:330px) {
     
     .s-tech{
         gap: 0.5rem;
     }
-    .card span:nth-child(3)>*{
+    /* .card span:nth-child(3)>*{
         font-size: 0.8rem;
-    }
+    } */
 }
